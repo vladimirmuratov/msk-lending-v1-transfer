@@ -15,7 +15,7 @@ export async function POST(request) {
                 <p>Телефон: ${req?.phone}</p>
                 <p>Email: ${req?.email ?? 'Нет'}</p>
                 <p>Информация: ${req?.info ?? 'Нет'}</p>
-                <p>Сообщение пришло с сайта: msk-emergency.ru</p>`,
+                <p>Сообщение пришло с сайта: transfer.mskdoctor.ru</p>`,
     }
 
     const transporter = nodemailer.createTransport({
