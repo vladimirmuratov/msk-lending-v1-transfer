@@ -17,7 +17,7 @@ export const ContactsBlock = () => {
                 <Box sx={{display: 'flex', flexDirection: 'column', gap: '10px'}}>
                     <Box sx={{display: 'flex', gap: '10px'}}>
                         <MapOutlinedIcon sx={{color: 'var(--green)'}}/>
-                        <Typography sx={{fontSize: {xs: '14px', sm: '16px'}}}>г. Москва, Мичуринский пр-т д.6</Typography>
+                        <Typography sx={{fontSize: {xs: '14px', sm: '16px'}}}>г. Москва, Мичуринский пр-т д.6,<br/>ФГБУ ОБП</Typography>
                     </Box>
                     <Box sx={{display: 'flex', gap: '10px'}}>
                         <LocalPhoneOutlinedIcon sx={{color: 'var(--green)'}}/>

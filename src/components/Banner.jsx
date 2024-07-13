@@ -37,19 +37,30 @@ export const Banner = () => {
                 больницу
             </Typography>
 
-            <Button
-                onClick={() => router.push(`tel:${phoneNumber}`)}
-                variant="contained"
-                color="error"
-                sx={{
+            {isMobile
+                ? <Button
+                    onClick={() => router.push(`tel:${phoneNumber}`)}
+                    variant="contained"
+                    color="error"
+                    sx={{
+                        position: 'absolute',
+                        top: '60%',
+                        left: '5%',
+                        display: isMobile ? 'block' : 'none'
+                    }}
+                >
+                    Позвонить
+                </Button>
+                : <Typography sx={{
+                    color: 'var(--red)',
                     position: 'absolute',
                     top: '60%',
                     left: '5%',
-                    display: isMobile ? 'block' : 'none'
-                }}
-            >
-                Позвонить
-            </Button>
+                    display: isMobile ? 'none' : 'block',
+                    fontSize: 38,
+                    fontWeight: 600
+                }}>{phoneNumber}</Typography>
+            }
 
         </Box>
     )
