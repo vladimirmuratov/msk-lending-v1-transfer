@@ -35,9 +35,18 @@ export const ContactsBlock = () => {
                     </Box>
                 </Box>
                 <Box>
-                    <iframe
+                    {/*<iframe
                         className='map'
                         src="https://yandex.ru/map-widget/v1/?um=constructor%3A604ee8345ca097d664aa1c7764529b62cb0469a88360ead0ce5d5df219788165&amp;source=constructor"
+                        frameBorder="0"></iframe>*/}
+
+
+                    {/*<script type="text/javascript" charSet="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=WKHUPZ27CZJJI685twB9KZ5f-NYF4kSq&width=100%&height=450&lang=ru_RU&sourceType=constructor&scroll=true"></script>*/}
+
+                    <iframe
+                        className='map'
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3AWKHUPZ27CZJJI685twB9KZ5f-NYF4kSq&amp;source=constructor"
                         frameBorder="0"></iframe>
                 </Box>
             </Box>
