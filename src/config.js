@@ -38,6 +38,9 @@ export const directions = [
     {id: 10, label: 'Неврология'},
     {id: 11, label: 'Терапия'},
     {id: 12, label: 'Реабилитация'},
+    {id: 13, label: 'Реанимация'},
+    {id: 14, label: 'Пластическая хирургия'},
+    {id: 15, label: 'Стоматология'},
 ]
 
 export const faq = [
