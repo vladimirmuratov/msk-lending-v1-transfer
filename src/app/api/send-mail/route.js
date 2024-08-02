@@ -38,7 +38,7 @@ export async function POST(request) {
         const message2 = {
             from: process.env.ADDRESS_FROM,
             to: [req.email],
-            subject: `Вы оставили заявку на звонок на сайте msk-ambulance.ru ${new Date().toLocaleString('ru-RU', {timeZone: 'Europe/Moscow'})}`,
+            subject: `Вы оставили заявку на звонок на сайте transfer.mskdoctor.ru ${new Date().toLocaleString('ru-RU', {timeZone: 'Europe/Moscow'})}`,
             html: ` <p>Имя: ${req?.person}</p>
                     <p>Дата рождения: ${req?.dateBirth ?? 'Нет'}</p>
                     <p>Телефон: ${req?.phone}</p>
