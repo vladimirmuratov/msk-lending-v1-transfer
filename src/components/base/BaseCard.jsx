@@ -21,7 +21,7 @@ export const BaseCard = ({label, icon, path, bgcolor}) => {
             <Typography sx={{
                 textTransform: 'uppercase',
                 textAlign: 'center',
-                fontSize: {xs: 18, sm: 16, md: 18},
+                fontSize: {xs: 18, sm: 14, md: 18},
                 fontWeight: 600,
                 color: '#fff'
             }}>{label}</Typography>

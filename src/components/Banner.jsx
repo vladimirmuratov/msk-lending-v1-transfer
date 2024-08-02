@@ -24,11 +24,12 @@ export const Banner = () => {
             <Typography
                 variant="h4"
                 sx={{
-                    fontSize: {xs: 16, sm: 32, md: 48},
+                    fontSize: {xs: 38, sm: 58, md: 62},
+                    lineHeight: 1.1,
                     fontWeight: 600,
                     color: 'var(--black)',
                     position: 'absolute',
-                    top: '30%',
+                    top: {xs: '10%', sm: '30%'},
                     left: '5%',
                     textShadow: '0px 4px 4px lightgray'
                 }}>
@@ -42,9 +43,10 @@ export const Banner = () => {
                     onClick={() => router.push(`tel:${phoneNumber}`)}
                     variant="contained"
                     color="error"
+                    size="large"
                     sx={{
                         position: 'absolute',
-                        top: '60%',
+                        top: {xs: '70%', sm: '80%', md: '70%', lg: '60%'},
                         left: '5%',
                         display: isMobile ? 'block' : 'none'
                     }}
@@ -57,7 +59,7 @@ export const Banner = () => {
                     top: '60%',
                     left: '5%',
                     display: isMobile ? 'none' : 'block',
-                    fontSize: 38,
+                    fontSize: {xs: 16, sm: 32, md: 62},
                     fontWeight: 600
                 }}>{phoneNumber}</Typography>
             }

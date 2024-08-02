@@ -12,7 +12,7 @@ import './globals.css'
 const montserrat = Montserrat({subsets: ['latin', 'cyrillic']})
 
 export const metadata = {
-    title: 'МСК',
+    title: 'МСК-Групп',
     description: 'Платная госпитализация в ведущие лечебные учреждения Москвы'
 }
 

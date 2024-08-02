@@ -23,7 +23,7 @@ export default function Home() {
             <WhyWeBlock/>
             <WeRespondBlock/>
             {/*<WhatWeOfferBlock/>*/}
-            {/*<DirectionsOfHospitalizationBlock/>*/}
+            <DirectionsOfHospitalizationBlock/>
             <BaseAccordion id='faq' title='Частые вопросы' items={faq}/>
             <PartnersBlock/>
             <BaseAccordion id='service' title='Услуги' items={services}/>

@@ -15,7 +15,7 @@ export const Footer = () => {
                 paddingY: '20px'
             }}>
             <Typography
-                sx={{color: 'var(--green)', fontSize: '20px', fontWeight: 600, letterSpacing: 2}}>МСК</Typography>
+                sx={{color: 'var(--green)', fontSize: '20px', fontWeight: 600, letterSpacing: 2}}>МСК-Групп</Typography>
             <Box sx={{
                 color: 'var(--green)',
                 display: 'flex',
