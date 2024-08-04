@@ -12,6 +12,9 @@ export const FloatBtn = ({handleOpen}) => {
                 right: {xs: '10px', sm: '30px', md: '50px'}
             }}>
             <CreateOutlinedIcon/>
+            <span className="pulse-button__rings"></span>
+            <span className="pulse-button__rings"></span>
+            <span className="pulse-button__rings"></span>
         </Fab>
     )
 }

@@ -3,12 +3,15 @@ import CheckIcon from '@mui/icons-material/Check'
 
 export const MainInfoBlock = () => {
     return (
-        <Box sx={{
-            scrollMarginTop: {xs: '120px', sm: '50px'},
-            paddingX: '32px',
-            paddingY: {xs: '25px', sm: '50px'},
-            color: 'var(--black)'
-        }}>
+        <Box
+            component="section"
+            sx={{
+                scrollMarginTop: {xs: '120px', sm: '50px'},
+                paddingX: '32px',
+                paddingY: {xs: '25px', sm: '50px'},
+                color: 'var(--black)'
+            }}
+        >
 
             <Typography variant="h4" sx={{marginBottom: '20px', fontSize: {xs: '28px', sm: '34px'}, fontWeight: 500}}>
                 Причины перевода пациента из одной больницы в другую
@@ -20,7 +23,7 @@ export const MainInfoBlock = () => {
                 больницы в другую:
             </Typography>
 
-            <Box sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
+            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
                     <CheckIcon sx={{color: 'var(--green)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Специализированное
@@ -32,7 +35,7 @@ export const MainInfoBlock = () => {
                     такие учреждения обеспечивает доступ к опытным специалистам и передовым методам лечения.
                 </Typography>
             </Box>
-            <Box sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
+            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
                     <CheckIcon sx={{color: 'var(--green)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Необходимость дополнительных
@@ -44,7 +47,7 @@ export const MainInfoBlock = () => {
                     другую больницу обеспечивает выполнение всех необходимых медицинских манипуляций.
                 </Typography>
             </Box>
-            <Box sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
+            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
                     <CheckIcon sx={{color: 'var(--green)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Мультиспециальный
@@ -56,7 +59,7 @@ export const MainInfoBlock = () => {
                     достижении комплексного ухода и оптимальных результатов лечения.
                 </Typography>
             </Box>
-            <Box sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
+            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
                     <CheckIcon sx={{color: 'var(--green)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Второе мнение и
@@ -68,7 +71,7 @@ export const MainInfoBlock = () => {
                     возможность для консультаций с новыми экспертами и принятия информированного решения.
                 </Typography>
             </Box>
-            <Box sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
+            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
                     <CheckIcon sx={{color: 'var(--green)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Улучшенные условия

@@ -2,12 +2,16 @@ import {Box, Typography} from '@mui/material'
 
 export const WhyWeBlock = () => {
     return (
-        <Box id="whyWe" sx={{
+        <Box
+            component="section"
+            id="whyWe"
+            sx={{
             scrollMarginTop: {xs: '120px', sm: '50px'},
             paddingX: '32px',
             paddingY: {xs: '25px', sm: '50px'},
             color: 'var(--black)'
-        }}>
+        }}
+        >
 
             <Typography variant="h4" sx={{marginBottom: '20px', fontSize: {xs: '28px', sm: '34px'}, fontWeight: 500}}>Почему именно
                 мы?</Typography>

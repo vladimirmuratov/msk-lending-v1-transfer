@@ -5,6 +5,7 @@ import {BaseCard} from '@/components/base/BaseCard'
 export const CardsBlock = () => {
     return (
         <Box
+            component="section"
             sx={{
                 display: {xs: 'none', sm: 'flex'},
                 flexDirection: {xs: 'column', sm: 'row'},
