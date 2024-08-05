@@ -12,6 +12,7 @@ import {TextBlock} from '@/components/TextBlock'
 import {ContactsBlock} from '@/components/ContactsBlock'
 import {FormAction} from '@/components/FormAction'
 import {MainInfoBlock} from '@/components/MainInfoBlock'
+import {CoordinatorBlock} from '@/components/CoordinatorBlock'
 
 export default function Home() {
     return (
@@ -24,9 +25,10 @@ export default function Home() {
             <WeRespondBlock/>
             {/*<WhatWeOfferBlock/>*/}
             <DirectionsOfHospitalizationBlock/>
-            <BaseAccordion id='faq' title='Частые вопросы' items={faq}/>
+            <BaseAccordion id="faq" title="Частые вопросы" items={faq}/>
+            <CoordinatorBlock/>
             <PartnersBlock/>
-            <BaseAccordion id='service' title='Услуги' items={services}/>
+            <BaseAccordion id="service" title="Услуги" items={services}/>
             <TextBlock text={text1}/>
             <ContactsBlock/>
             <FormAction/>

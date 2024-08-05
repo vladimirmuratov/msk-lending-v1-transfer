@@ -22,7 +22,13 @@ export const AboutBlock = () => {
                 пациентов в ведущие клиники Москвы в круглосуточном режиме.
             </Typography>
 
-            <Typography component="p" sx={{fontSize: 20, marginBottom: '10px'}}>
+            <Typography
+                component="p"
+                sx={{
+                    fontSize: 20,
+                    // marginBottom: '10px'
+                }}
+            >
                 Частная служба скорой помощи <Box component="span" sx={{fontWeight: 600}}>МСК-Групп</Box> помогает
                 транспортировать маломобильного пациента из одного
                 медцентра в другой как в пределах одного города или области, так и по всей территории нашей огромной
@@ -32,10 +38,10 @@ export const AboutBlock = () => {
                 <Box component="span" sx={{fontWeight: 600}}>Круглосуточно. Оперативно. Доступно</Box>
             </Typography>
 
-            <Typography component="p" sx={{fontSize: 20}}>
+            {/*<Typography component="p" sx={{fontSize: 20}}>
                 Наша компания работает на базе ФГБУ "Объединенная больница с поликлиникой" Управления Делами Президента
                 РФ.
-            </Typography>
+            </Typography>*/}
         </Box>
     )
 }
