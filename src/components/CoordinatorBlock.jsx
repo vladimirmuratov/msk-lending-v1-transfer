@@ -20,7 +20,7 @@ export const CoordinatorBlock = () => (
         >
             <Box component='span' sx={{fontWeight: 600}}>МСК-Групп</Box>
             <br/>
-            Официальный координатор по госпитализации в ведущие клиники России
+            Официальный координатор по госпитализации в федеральные медицинские учреждения г.Москвы
         </Typography>
         <Typography
             component="p"
