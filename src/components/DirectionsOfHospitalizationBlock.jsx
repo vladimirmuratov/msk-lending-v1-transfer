@@ -18,7 +18,7 @@ export const DirectionsOfHospitalizationBlock = () => {
 
             {directions.map(({id, label}) => (
                 <Box key={id} sx={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--green)'}}/>
+                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>{label}</Typography>
                 </Box>
             ))}

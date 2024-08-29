@@ -13,7 +13,7 @@ export const BaseAccordionItem = ({id, question, answer}) => {
             >
                 {question}
             </AccordionSummary>
-            <AccordionDetails sx={{fontSize: 18, lineHeight: 1.5, backgroundColor: 'var(--green)', color: '#fff', whiteSpace: 'pre-wrap'}}>
+            <AccordionDetails sx={{fontSize: 18, lineHeight: 1.5, backgroundColor: 'var(--main-color)', color: '#fff', whiteSpace: 'pre-wrap'}}>
                 {answer}
             </AccordionDetails>
         </Accordion>

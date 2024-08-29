@@ -15,7 +15,7 @@ export const CoordinatorBlock = () => (
                 fontSize: {xs: '28px', sm: '34px'},
                 fontWeight: 500,
                 textAlign: 'center',
-                color: 'var(--green)'
+                color: 'var(--main-color)'
             }}
         >
             <Box component='span' sx={{fontWeight: 600}}>МСК-Групп</Box>

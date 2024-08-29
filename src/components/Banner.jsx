@@ -57,7 +57,8 @@ export const Banner = () => {
                         color: 'var(--red)',
                         display: isMobile ? 'none' : 'block',
                         fontSize: {xs: 16, sm: 32, md: 62},
-                        fontWeight: 600
+                        fontWeight: 600,
+                        textShadow: '0px 4px 4px lightgray',
                     }}>{phoneNumber}</Typography>
                 }
             </Box>

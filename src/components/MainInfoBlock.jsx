@@ -25,7 +25,7 @@ export const MainInfoBlock = () => {
 
             <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--green)'}}/>
+                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Специализированное
                         лечение:</Typography>
                 </Box>
@@ -37,7 +37,7 @@ export const MainInfoBlock = () => {
             </Box>
             <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--green)'}}/>
+                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Необходимость дополнительных
                         медицинских услуг:</Typography>
                 </Box>
@@ -49,7 +49,7 @@ export const MainInfoBlock = () => {
             </Box>
             <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--green)'}}/>
+                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Мультиспециальный
                         подход:</Typography>
                 </Box>
@@ -61,7 +61,7 @@ export const MainInfoBlock = () => {
             </Box>
             <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--green)'}}/>
+                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Второе мнение и
                         консультации:</Typography>
                 </Box>
@@ -73,7 +73,7 @@ export const MainInfoBlock = () => {
             </Box>
             <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--green)'}}/>
+                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
                     <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Улучшенные условия
                         ухода:</Typography>
                 </Box>

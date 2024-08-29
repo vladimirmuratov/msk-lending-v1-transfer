@@ -1,6 +1,5 @@
-import {Box, IconButton} from '@mui/material'
-import {links} from '@/config'
-import Link from 'next/link'
+import {Box, IconButton, Typography, Link} from '@mui/material'
+import {links, phoneNumber} from '@/config'
 import MenuIcon from '@mui/icons-material/Menu'
 import {ContactBanner} from '@/components/ContactBanner'
 import {useCallback, useEffect, useRef, useState} from 'react'
@@ -36,31 +35,68 @@ export const DesktopHeader = () => {
             <ContactBanner/>
 
             <Box
-                component='header'
-                className='container'
-                 sx={{
-                     position: position,
-                     top: 0,
-                     left: 0,
-                     right: 0,
-                     zIndex: 1,
-                     backgroundColor: 'var(--white)',
-                     paddingY: '12px',
-                     paddingX: {xs: '24px', sm: '32px'},
-                     display: 'flex',
-                     alignItems: 'center',
-                     justifyContent: 'space-between',
-                     boxShadow: '0 2px 4px lightgray'
-                 }}>
+                component="header"
+                className="container"
+                sx={{
+                    position: position,
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    zIndex: 1,
+                    backgroundColor: 'var(--white)',
+                    paddingY: '12px',
+                    paddingX: {xs: '24px', sm: '32px'},
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    gap: '10px',
+                    boxShadow: '0 2px 4px lightgray'
+                }}>
                 <Link href="/">
-                    <img className="logo" src="/images/logo.png" alt="logo"/>
+                    <img className="logo" src="/images/logo-msk.webp" alt="logo"/>
                 </Link>
-                <Box component="nav" sx={{display: {xs: 'none', sm: 'flex'}, gap: {sm: '10px', md: '15px'}}}>
+
+                {/*<Box component="nav" sx={{display: {xs: 'none', sm: 'flex'}, gap: {sm: '10px', md: '15px'}}}>
                     {links.map((link) => <BaseLink key={link.id} {...link}/>)}
+                </Box>*/}
+
+                <Box>
+                    <Typography
+                        sx={{
+                            color: 'var(--main-color)',
+                            fontSize: 20,
+                            fontWeight: 600,
+                            textAlign: 'center'
+                        }}
+                    >
+                        Официальный координатор по госпитализации в федеральные медицинские учреждения г.Москвы
+                    </Typography>
                 </Box>
-                <IconButton sx={{visibility: 'hidden'}}>
+
+                <Box>
+                    <Link
+                        href={`tel:${phoneNumber}`}
+                        sx={{
+                            textDecoration: 'none'
+                        }}
+                    >
+                        <Typography
+                            sx={{
+                                color: 'var(--red)',
+                                fontSize: 20,
+                                fontWeight: 600,
+                                textAlign: 'center',
+                                whiteSpace: 'nowrap'
+                            }}
+                        >
+                            {phoneNumber}
+                        </Typography>
+                    </Link>
+                </Box>
+
+                {/*<IconButton sx={{visibility: 'hidden'}}>
                     <MenuIcon/>
-                </IconButton>
+                </IconButton>*/}
             </Box>
         </Box>
     )

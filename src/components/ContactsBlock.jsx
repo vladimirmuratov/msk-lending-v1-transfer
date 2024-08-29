@@ -16,15 +16,15 @@ export const ContactsBlock = () => {
             <Box sx={{display: 'grid', gridTemplateColumns: {xs: '1fr', sm: '1fr 2fr'}, gap: {xs: '10px', sm: 0}}}>
                 <Box sx={{display: 'flex', flexDirection: 'column', gap: '10px'}}>
                     <Box sx={{display: 'flex', gap: '10px'}}>
-                        <MapOutlinedIcon sx={{color: 'var(--green)'}}/>
+                        <MapOutlinedIcon sx={{color: 'var(--main-color)'}}/>
                         <Typography sx={{fontSize: {xs: '14px', sm: '16px'}}}>г. Москва, Мичуринский пр-т д.6,<br/>ФГБУ ОБП</Typography>
                     </Box>
                     <Box sx={{display: 'flex', gap: '10px'}}>
-                        <LocalPhoneOutlinedIcon sx={{color: 'var(--green)'}}/>
+                        <LocalPhoneOutlinedIcon sx={{color: 'var(--main-color)'}}/>
                         <Link href={`tel:${phoneNumber}`} sx={{fontSize: {xs: '14px', sm: '16px'}}}>{phoneNumber}</Link>
                     </Box>
                     <Box sx={{display: 'flex', gap: '10px'}}>
-                        <AlternateEmailIcon sx={{color: 'var(--green)'}}/>
+                        <AlternateEmailIcon sx={{color: 'var(--main-color)'}}/>
                         <Link href={`mailto:${email}`} sx={{fontSize: {xs: '14px', sm: '16px'}}}>{email}</Link>
                     </Box>
                     <Box sx={{paddingLeft: '34px'}}>

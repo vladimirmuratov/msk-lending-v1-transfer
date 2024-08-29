@@ -6,7 +6,7 @@ export const Footer = () => {
         <Box
             component="footer"
             sx={{
-                borderTop: '1px solid var(--green)',
+                borderTop: '1px solid var(--main-color)',
                 display: 'flex',
                 flexDirection: {xs: 'column', sm: 'row'},
                 justifyContent: 'space-between',
@@ -15,9 +15,9 @@ export const Footer = () => {
                 paddingY: '20px'
             }}>
             <Typography
-                sx={{color: 'var(--green)', fontSize: '20px', fontWeight: 600, letterSpacing: 2}}>МСК-Групп</Typography>
+                sx={{color: 'var(--main-color)', fontSize: '20px', fontWeight: 600, letterSpacing: 2}}>МСК-Групп</Typography>
             <Box sx={{
-                color: 'var(--green)',
+                color: 'var(--main-color)',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: {xs: 'flex-start', sm: 'flex-end'}
