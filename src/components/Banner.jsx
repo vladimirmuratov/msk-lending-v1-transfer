@@ -7,13 +7,15 @@ import {useRouter} from 'next/navigation'
 
 export const Banner = () => {
     const router = useRouter()
-    const [isMobile, setMobile] = useState(false)
+    const [isMobile, setMobile] = useState(true)
 
     useEffect(() => {
         const os = navigator.userAgentData.platform
 
         if (os === 'Android' || os === 'iOS') {
             setMobile(true)
+        } else {
+            setMobile(false)
         }
 
     }, [])
