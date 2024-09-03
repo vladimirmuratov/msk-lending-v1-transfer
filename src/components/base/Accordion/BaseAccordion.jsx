@@ -9,7 +9,7 @@ export const BaseAccordion = ({id = '', title, items = []}) => {
             id={id}
             sx={{
                 scrollMarginTop: {xs: '120px', sm: '50px'},
-                paddingX: '32px',
+                paddingX: '12px',
                 paddingY: {xs: '25px', sm: '50px'},
                 color: 'var(--black)'
             }}

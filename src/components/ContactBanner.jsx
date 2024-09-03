@@ -7,7 +7,7 @@ export const ContactBanner = ({isMobile = false}) => {
 
     return(
         <Box sx={{
-            padding: '8px 32px',
+            padding: '8px 12px',
             display: 'flex',
             flexDirection: {xs: 'column', sm: 'row'},
             justifyContent: 'space-between',

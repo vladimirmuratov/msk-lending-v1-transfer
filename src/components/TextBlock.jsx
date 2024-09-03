@@ -7,7 +7,7 @@ export const TextBlock = ({text}) => {
             sx={{
                 backgroundColor: 'var(--main-color)',
                 marginY: {xs: '25px', sm: '50px'},
-                paddingX: '32px',
+                paddingX: '12px',
                 paddingY: '32px'
             }}
         >

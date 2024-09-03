@@ -134,3 +134,9 @@ a {
         margin-top: 0;
     }
 }
+
+.banner-social-mobile {
+    justify-content: start !important;
+    gap: 30px;
+    margin-top: 10px;
+}

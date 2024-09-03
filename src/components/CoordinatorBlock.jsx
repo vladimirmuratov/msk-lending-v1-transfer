@@ -4,7 +4,7 @@ export const CoordinatorBlock = () => (
     <Box
         component="section"
         sx={{
-            paddingX: '32px',
+            paddingX: '12px',
             paddingY: {xs: '25px', sm: '50px'},
         }}
     >

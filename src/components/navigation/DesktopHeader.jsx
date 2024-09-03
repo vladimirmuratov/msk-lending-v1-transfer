@@ -4,6 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 import {ContactBanner} from '@/components/ContactBanner'
 import {useCallback, useEffect, useRef, useState} from 'react'
 import {BaseLink} from '@/components/base/BaseLink'
+import SocialBlock from '@/components/SocialBlock'
 
 export const DesktopHeader = () => {
     const scrollContainer = useRef()
@@ -45,7 +46,8 @@ export const DesktopHeader = () => {
                     zIndex: 1,
                     backgroundColor: 'var(--white)',
                     paddingY: '12px',
-                    paddingX: {xs: '24px', sm: '32px'},
+                    paddingX: '12px',
+                    // paddingX: {xs: '24px', sm: '32px'},
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'space-between',
@@ -92,6 +94,9 @@ export const DesktopHeader = () => {
                             {phoneNumber}
                         </Typography>
                     </Link>
+
+                    <SocialBlock/>
+
                 </Box>
 
                 {/*<IconButton sx={{visibility: 'hidden'}}>
