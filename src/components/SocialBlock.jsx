@@ -30,7 +30,7 @@ const SocialBlock = ({className = ''}) => {
                     height={30}
                 />
             </Link>
-            <Link href={`viber://chat?number=${phoneViber}`}>
+            <Link href={`viber://add?number=${phoneViber}`}>
                 <Image
                     src="/images/social/viber.svg"
                     alt="icon"
