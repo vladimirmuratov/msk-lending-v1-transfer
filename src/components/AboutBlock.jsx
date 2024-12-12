@@ -1,4 +1,4 @@
-import {Box, Typography} from '@mui/material'
+import { Box, Typography } from '@mui/material';
 
 export const AboutBlock = () => {
     return (
@@ -6,42 +6,49 @@ export const AboutBlock = () => {
             component="section"
             id="about"
             sx={{
-                scrollMarginTop: {xs: '120px', sm: '50px'},
+                scrollMarginTop: { xs: '120px', sm: '50px' },
                 paddingX: '12px',
-                paddingY: {xs: '25px', sm: '50px'},
+                paddingY: { xs: '25px', sm: '50px' },
                 color: 'var(--black)'
             }}
         >
 
-            <Typography variant="h4" sx={{marginBottom: '20px', fontSize: {xs: '28px', sm: '34px'}, fontWeight: 500}}>О
-                нас</Typography>
+            <Typography variant="h2"
+                        sx={{
+                            color: 'var(--main-color)',
+                            marginBottom: '20px',
+                            fontSize: { xs: '28px', sm: '34px' },
+                            fontWeight: 500
+                        }}>
+                О нас
+            </Typography>
 
-            <Typography component="p" sx={{fontSize: 20, marginBottom: '10px'}}>
-                Московская Сервисная Компания (МСК-Групп) уже 10 лет оказывает услуги платной госпитализации и
-                транспортировки
-                пациентов в ведущие клиники Москвы в круглосуточном режиме.
+            <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 }, marginBottom: '10px' }}>
+                <Box component="span" sx={{ color: 'var(--main-color)', fontWeight: 600 }}>Московская Сервисная Компания
+                    (МСК-Групп)</Box> предлагает полный спектр решений в сфере координации
+                медицинского обслуживания: от
+                организации пребывания пациентов в топовых московских клиниках до безопасной и оптимизированной
+                перевозки между ними.
             </Typography>
 
             <Typography
                 component="p"
                 sx={{
-                    fontSize: 20,
+                    fontSize: { xs: 18, sm: 20 },
                     // marginBottom: '10px'
                 }}
             >
-                Частная служба скорой помощи <Box component="span" sx={{fontWeight: 600}}>МСК-Групп</Box> помогает
-                транспортировать маломобильного пациента из одного
-                медцентра в другой как в пределах одного города или области, так и по всей территории нашей огромной
-                страны. Мы придем на помощь, если вам экстренно нужно госпитализировать родственника в удаленную клинику
-                или требуется отправить близкого человека на плановое лечение в столичный медицинский центр.
-                <br/>
-                <Box component="span" sx={{fontWeight: 600}}>Круглосуточно. Оперативно. Доступно</Box>
+                <Box component="span" sx={{ color: 'var(--main-color)', fontWeight: 600 }}>Цель</Box> — гарантировать
+                доступность первоклассного медицинского ухода для каждого обратившегося,
+                обеспечивая оперативное решение всех аспектов госпитализации и транспортировки. Наш главный принцип —
+                приоритет здоровья и максимального комфорта наших заказчиков в каждом этапе взаимодействия с системой
+                здравоохранения.
             </Typography>
 
-            {/*<Typography component="p" sx={{fontSize: 20}}>
+            {/*<Typography component="p" sx={{fontSize: { xs: 18, sm: 20 }}}>
                 Наша компания работает на базе ФГБУ "Объединенная больница с поликлиникой" Управления Делами Президента
                 РФ.
             </Typography>*/}
         </Box>
-    )
-}
+    );
+};

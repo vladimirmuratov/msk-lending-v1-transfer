@@ -15,10 +15,10 @@ export const PartnersBlock = () => {
             color: 'var(--black)'
         }}
         >
-            <Typography variant="h4"
-                        sx={{marginBottom: '20px', fontSize: {xs: '28px', sm: '34px'}, fontWeight: 500}}>Партнеры</Typography>
+            <Typography variant="h2"
+                        sx={{color: 'var(--main-color)', marginBottom: '20px', fontSize: {xs: '28px', sm: '34px'}, fontWeight: 500}}>Партнеры</Typography>
 
-            <Typography component="p" sx={{fontSize: 20, marginBottom: '10px'}}>
+            <Typography component="p" sx={{fontSize: { xs: 18, sm: 20 }, marginBottom: '10px'}}>
                 Мы сотрудничаем со следующими лечебными учреждениями:
             </Typography>
 

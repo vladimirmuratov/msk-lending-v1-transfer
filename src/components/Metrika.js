@@ -8,7 +8,7 @@ export function Metrika() {
     const pathName = usePathname()
     const searchParams = useSearchParams()
     useEffect(() => {
-        ym(96948241, 'hit', window.location.href)
+        ym(99193141, 'hit', window.location.href)
     }, [pathName, searchParams])
     return (
         <Script id="yandex-metrika">
@@ -19,7 +19,7 @@ export function Metrika() {
             k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
             (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-           ym(96948241, "init", {
+           ym(99193141, "init", {
                 clickmap:true,
                 trackLinks:true,
                 accurateTrackBounce:true

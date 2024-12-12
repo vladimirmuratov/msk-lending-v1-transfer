@@ -66,7 +66,7 @@ export const DesktopHeader = () => {
                     <Typography
                         sx={{
                             color: 'var(--main-color)',
-                            fontSize: 20,
+                            fontSize: { xs: 18, sm: 20 },
                             fontWeight: 600,
                             textAlign: 'center'
                         }}
@@ -85,7 +85,7 @@ export const DesktopHeader = () => {
                         <Typography
                             sx={{
                                 color: 'var(--red)',
-                                fontSize: 20,
+                                fontSize: { xs: 18, sm: 20 },
                                 fontWeight: 600,
                                 textAlign: 'center',
                                 whiteSpace: 'nowrap'

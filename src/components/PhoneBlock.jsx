@@ -12,7 +12,7 @@ const PhoneBlock = () => {
                 }}
             >
                 <Typography
-                    variant="h4"
+                    variant="h2"
                     sx={{
                         fontSize: {xs: '28px', sm: '34px'},
                         fontWeight: 600,

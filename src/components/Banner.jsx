@@ -47,18 +47,23 @@ export const Banner = () => {
                     padding: '20px'
                 }}>
                     <Typography
-                        variant="h4"
+                        variant="h1"
                         sx={{
+                            color: 'var(--main-color)',
                             fontSize: {xs: 22, sm: 40, md: 62},
                             lineHeight: 1,
                             fontWeight: 600,
-                            color: 'var(--black)',
                             textShadow: '0px 4px 4px lightgray',
                             marginBottom: {xs: '5px', sm: '10px'}
                         }}>
-                        Перевод<br/>
-                        в другую<br/>
-                        больницу
+                        Перевод
+                        <br/>
+                        из одной больницы
+                        <br/>
+                        в другую
+                        {/*Перевод<br/>*/}
+                        {/*в другую<br/>*/}
+                        {/*больницу*/}
                     </Typography>
 
                     {isMobile
@@ -71,7 +76,7 @@ export const Banner = () => {
                                 onClick={() => router.push(`tel:${phoneNumber}`)}
                                 variant="contained"
                                 color="error"
-                                size="large"
+                                size="small"
                                 sx={{
                                     display: isMobile ? 'block' : 'none'
                                 }}

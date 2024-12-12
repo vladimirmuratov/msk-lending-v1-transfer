@@ -12,7 +12,7 @@ export const ContactsBlock = () => {
             id='contact'
             sx={{scrollMarginTop: {xs: '120px', sm: '50px'}, paddingX: '12px', paddingY: {xs: '25px', sm: '50px'}, color: 'var(--black)'}}
         >
-            <Typography variant="h4" sx={{marginBottom: '20px', fontSize: {xs: '28px', sm: '34px'}, fontWeight: 500}}>Контакты</Typography>
+            <Typography variant="h2" sx={{color: 'var(--main-color)', marginBottom: '20px', fontSize: {xs: '28px', sm: '34px'}, fontWeight: 500}}>Контакты</Typography>
 
             <Box sx={{display: 'grid', gridTemplateColumns: {xs: '1fr', sm: '1fr 2fr'}, gap: {xs: '10px', sm: 0}}}>
                 <Box sx={{display: 'flex', flexDirection: 'column', gap: '10px'}}>
