@@ -26,7 +26,9 @@ export const Banner = () => {
             component="figure"
             sx={{
                 position: 'relative',
-                marginTop: isMobile ? {xs: '110px', sm: '95px'} : 0,
+                // marginTop: isMobile ? {xs: '110px', sm: '95px'} : 0,
+                marginTop: isMobile ? { xs: '110px', sm: 0 } : 0,
+                paddingBottom: isMobile ? { xs: '25px', sm: 0 } : 0
             }}
         >
             <Box
@@ -61,9 +63,6 @@ export const Banner = () => {
                         из одной больницы
                         <br/>
                         в другую
-                        {/*Перевод<br/>*/}
-                        {/*в другую<br/>*/}
-                        {/*больницу*/}
                     </Typography>
 
                     {isMobile
