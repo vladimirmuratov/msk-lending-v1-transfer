@@ -20,7 +20,7 @@ export const Footer = () => {
                 color: 'var(--main-color)',
                 display: 'flex',
                 flexDirection: 'column',
-                alignItems: {xs: 'flex-start', sm: 'flex-end'}
+                alignItems: {xs: 'center', sm: 'flex-end'}
             }}>
                 <Typography sx={{fontSize: '14px'}}>г. Москва, Мичуринский пр-т, д. 6</Typography>
                 <Typography sx={{fontSize: '14px'}}>{phoneNumber}</Typography>
