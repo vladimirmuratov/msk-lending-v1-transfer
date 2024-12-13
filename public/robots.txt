@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://transfer.mskdoctor.ru/sitemap.xml
