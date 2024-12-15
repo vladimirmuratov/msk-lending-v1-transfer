@@ -7,8 +7,21 @@ import { Navigation } from '@/components/navigation/Navigation';
 import { Suspense } from 'react';
 import theme from '@/theme';
 import './globals.css';
+import { Metrika } from '@/components/Metrika';
 
 const montserrat = Montserrat({ subsets: ['latin', 'cyrillic'] });
+
+export const metadata = {
+    title: 'Перевод из одной больницы в другую. Звоните: +7 (499) 719-81-00, 24/7',
+    description: 'Перевод в другую больницу? Мы здесь, чтобы помочь! Звоните круглосуточно: +7 (499) 719-81-00.',
+    keywords: ['перевод из одной больницы в другую'],
+    other: {
+        ['yandex-verification']: '7d396e0f3ecc629e',
+    },
+    alternates: {
+        canonical: 'https://transfer.mskdoctor.ru/'
+    }
+};
 
 export default function RootLayout({ children }) {
     return (
@@ -21,6 +34,7 @@ export default function RootLayout({ children }) {
                         <Navigation />
                         {children}
                         <Footer />
+                        <Metrika />
                     </Suspense>
                 </Box>
             </ThemeProvider>
