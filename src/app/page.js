@@ -24,6 +24,9 @@ export const metadata = {
     other: {
         ['yandex-verification']: '7d396e0f3ecc629e',
     },
+    alternates: {
+        canonical: 'https://transfer.mskdoctor.ru/'
+    }
 };
 
 export default function Home() {
