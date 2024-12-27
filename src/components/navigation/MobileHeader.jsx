@@ -34,7 +34,7 @@ export const MobileHeader = ({toggleDrawer, isMobile}) => {
                     >МСК</Typography>
                 </Link>
 
-                <Box>
+                {/*<Box>
                     <Link
                         href={`tel:${phoneNumber}`}
                         sx={{
@@ -53,7 +53,7 @@ export const MobileHeader = ({toggleDrawer, isMobile}) => {
                             {phoneNumber}
                         </Typography>
                     </Link>
-                </Box>
+                </Box>*/}
 
                 <IconButton onClick={toggleDrawer(true)}>
                     <MenuIcon sx={{color: '#fff'}}/>

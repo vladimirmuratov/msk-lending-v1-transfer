@@ -17,9 +17,6 @@ export const metadata = {
     keywords: ['перевод из одной больницы в другую'],
     other: {
         ['yandex-verification']: '7d396e0f3ecc629e',
-    },
-    alternates: {
-        canonical: 'https://transfer.mskdoctor.ru/'
     }
 };
 
