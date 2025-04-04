@@ -21,7 +21,7 @@ export const Footer = () => {
                         fontWeight: 600,
                         letterSpacing: 2
                     }}>
-                    МСК-Групп
+                    МСК
                 </Typography>
                 <Box component="span">&copy;</Box>
                 <Box component="span">2014 — {new Date().getFullYear()}</Box>

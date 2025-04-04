@@ -25,8 +25,8 @@ export const MainInfoBlock = () => {
 
             <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography variant='h3' sx={{color: 'var(--main-color)', fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Специализированное
+                    <CheckIcon sx={{color: 'var(--red)'}}/>
+                    <Typography variant='h3' sx={{color: 'var(--red)', fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Специализированное
                         лечение:</Typography>
                 </Box>
                 <Typography component="p" sx={{fontSize: { xs: 18, sm: 20 }}}>
@@ -37,8 +37,8 @@ export const MainInfoBlock = () => {
             </Box>
             <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography variant='h3' sx={{color: 'var(--main-color)', fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Необходимость дополнительных
+                    <CheckIcon sx={{color: 'var(--red)'}}/>
+                    <Typography variant='h3' sx={{color: 'var(--red)', fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Необходимость дополнительных
                         медицинских услуг:</Typography>
                 </Box>
                 <Typography component="p" sx={{fontSize: { xs: 18, sm: 20 }}}>
@@ -49,8 +49,8 @@ export const MainInfoBlock = () => {
             </Box>
             <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography variant='h3' sx={{color: 'var(--main-color)', fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Мультиспециальный
+                    <CheckIcon sx={{color: 'var(--red)'}}/>
+                    <Typography variant='h3' sx={{color: 'var(--red)', fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Мультиспециальный
                         подход:</Typography>
                 </Box>
                 <Typography component="p" sx={{fontSize: { xs: 18, sm: 20 }}}>
@@ -61,8 +61,8 @@ export const MainInfoBlock = () => {
             </Box>
             <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography variant='h3' sx={{color: 'var(--main-color)', fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Второе мнение и
+                    <CheckIcon sx={{color: 'var(--red)'}}/>
+                    <Typography variant='h3' sx={{color: 'var(--red)', fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Второе мнение и
                         консультации:</Typography>
                 </Box>
                 <Typography component="p" sx={{fontSize: { xs: 18, sm: 20 }}}>
@@ -73,8 +73,8 @@ export const MainInfoBlock = () => {
             </Box>
             <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
                 <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography variant='h3' sx={{color: 'var(--main-color)', fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Улучшенные условия
+                    <CheckIcon sx={{color: 'var(--red)'}}/>
+                    <Typography variant='h3' sx={{color: 'var(--red)', fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Улучшенные условия
                         ухода:</Typography>
                 </Box>
                 <Typography component="p" sx={{fontSize: { xs: 18, sm: 20 }}}>
