@@ -12,6 +12,7 @@ import { Metrika } from '@/components/Metrika';
 const montserrat = Montserrat({ subsets: ['latin', 'cyrillic'] });
 
 export const metadata = {
+    metadataBase: new URL('https://transfer.mskdoctor.ru'),
     title: 'Медицинская Сервисная Компания. Перевод пациентов в московские клиники из регионов и СНГ. 8 (499) 719-81-00, 24/7',
     description: 'Организуем перевод больных из больниц России и стран СНГ в клиники Москвы. Профессиональный подход, помощь в выборе медучреждения, оформление, транспортировка и сопровождение.',
     keywords: ['перевод из одной больницы в другую'],

@@ -27,7 +27,8 @@ export const CoordinatorBlock = () => (
             sx={{
                 fontSize: { xs: 18, sm: 20 },
                 fontWeight: 500,
-                textAlign: 'center'
+                textAlign: 'center',
+                color: 'var(--main-color)'
             }}
         >
             При обращении в <Box component="span" sx={{ fontWeight: 600, color: 'var(--red)' }}>МСК</Box> &mdash; все
