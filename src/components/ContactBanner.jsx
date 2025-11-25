@@ -1,5 +1,5 @@
 import { Box, Link, Typography } from '@mui/material';
-import { phoneNumber } from '@/config';
+import { email, phoneNumber } from '@/config';
 
 export const ContactBanner = ({ isMobile = false }) => {
     const bgColor = isMobile ? 'var(--white)' : 'var(--main-color)';
@@ -17,8 +17,15 @@ export const ContactBanner = ({ isMobile = false }) => {
             color: 'var(--black)',
             backgroundColor: bgColor
         }}>
-            <Typography sx={{ color: color, fontSize: { xs: 12, sm: 14, md: 16 } }}>г. Москва, Мичуринский пр-т , д.
-                6</Typography>
+
+            {/*<Typography sx={{ color: color, fontSize: { xs: 12, sm: 14, md: 16 } }}>
+                г. Москва, Мичуринский пр-т , д. 6
+            </Typography>*/}
+
+            <Typography sx={{ color: color, fontSize: { xs: 12, sm: 14, md: 16 } }}>
+                Круглосуточно 24/7
+            </Typography>
+
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
                 <Link
                     href={`tel:${phoneNumber}`}
@@ -28,7 +35,14 @@ export const ContactBanner = ({ isMobile = false }) => {
                         textDecoration: 'underline'
                     }}>{phoneNumber}</Link>
                 <Typography sx={{ color: color }}>&nbsp;|&nbsp;</Typography>
-                <Typography sx={{ color: color, fontSize: { xs: 12, sm: 14, md: 16 } }}>Круглосуточно 24/7</Typography>
+                {/*<Typography sx={{ color: color, fontSize: { xs: 12, sm: 14, md: 16 } }}>Круглосуточно 24/7</Typography>*/}
+                <Link
+                    href={`mailto:${email}`}
+                    sx={{
+                        color: phoneColor,
+                        fontSize: { xs: 12, sm: 14, md: 16 },
+                        textDecoration: 'underline'
+                    }}>{email}</Link>
             </Box>
         </Box>
     );
