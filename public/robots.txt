@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://transfer.mskdoctor.ru/sitemap.xml
+Sitemap: https://msk-transfer.vercel.app/sitemap.xml

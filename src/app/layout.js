@@ -12,20 +12,23 @@ import { Metrika } from '@/components/Metrika';
 const montserrat = Montserrat({ subsets: ['latin', 'cyrillic'] });
 
 export const metadata = {
-    metadataBase: new URL('https://transfer.mskdoctor.ru'),
+    metadataBase: new URL('https://msk-transfer.vercel.app'),
     title: 'Медицинская Сервисная Компания. Перевод пациентов в московские клиники из регионов и СНГ. 8 (499) 719-81-00, 24/7',
     description: 'Организуем перевод больных из больниц России и стран СНГ в клиники Москвы. Профессиональный подход, помощь в выборе медучреждения, оформление, транспортировка и сопровождение.',
     keywords: ['перевод из одной больницы в другую'],
     other: {
-        ['yandex-verification']: '7d396e0f3ecc629e',
+        ['yandex-verification']: 'ad375d78b8049b82',
     },
     openGraph: {
         title: 'Медицинская Сервисная Компания. Перевод пациента в другую больницу — быстро и безопасно. 8 (499) 719-81-00, 24/7',
         description: 'Организуем перевод больных из больниц России и стран СНГ в клиники Москвы. Профессиональный подход, помощь в выборе медучреждения, оформление, транспортировка и сопровождение.',
         images: ['/images/banner2.webp'],
-        url: 'https://transfer.mskdoctor.ru/',
+        url: 'https://msk-transfer.vercel.app/',
         type: 'website',
         locale: 'ru_RU',
+    },
+    alternates: {
+        canonical: 'https://msk-transfer.vercel.app',
     }
 };
 
