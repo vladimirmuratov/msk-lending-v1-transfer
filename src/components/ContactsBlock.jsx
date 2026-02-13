@@ -49,9 +49,9 @@ export const ContactsBlock = () => {
                     </Box>
                     <Box sx={{ paddingLeft: '34px' }}>
                         <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ООО "МСК"</Typography>
-                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ИНН: 9725116009</Typography>
-                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>КПП: 772501001</Typography>
-                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ОГРН: 1237700147343</Typography>
+                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ИНН: 9727115000</Typography>
+                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>КПП: 772701001</Typography>
+                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ОГРН: 1257700446321</Typography>
 
                         <SocialBlock className="banner-social-mobile" />
                     </Box>
